@@ -16,7 +16,7 @@ app.use(cors({
 console.log('PASSWORD: ', process.env.MONGO_ATLAS_PW, "SECRET_KEY: ", process.env.MONGO_ATLAS_PW)
 
 // Connecting to the Mongo Atlas database                                         
-mongoose.connect('mongodb+srv://chrisfotos:sed1sed1@node-rest-shop-7baom.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb://chris:sed1sed1@ds021771.mlab.com:21771/heroku_g1j39pl6',
     { useNewUrlParser: true })
 
 mongoose.Promise = global.Promise;
