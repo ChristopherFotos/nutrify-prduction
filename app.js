@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 
-console.log('PASSWORD: ', process.env.MONGO_ATLAS_PW, "SECRET_KEY: ", process.env.MONGO_ATLAS_PW)
+console.log('PASSWORD: ', process.env.MONGO_ATLAS_PW, "JWT_KEY: ", process.env.JWT_KEY)
 
 // Connecting to the Mongo Atlas database                                         
 mongoose.connect('mongodb://chris:sed1sed1@ds021771.mlab.com:21771/heroku_g1j39pl6',
