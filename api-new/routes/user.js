@@ -91,7 +91,7 @@ router.post('/login', (req, res, next) => {
                     console.log('TOKEN:' + token)
                     // This response now includes a cookie which contains our access token.   
                     return res
-                        .cookie('access_token', token, { domain: 'localhost', sameSite: 'Strict', httpOnly: true })
+                        .cookie('access_token', token, { domain: 'https://nutrifyreact.herokuapp.com', sameSite: 'Strict', httpOnly: true })
                         .sendStatus(200)
                 }
                 res.status(401).json({
