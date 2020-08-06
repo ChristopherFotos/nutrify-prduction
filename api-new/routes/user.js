@@ -67,6 +67,7 @@ router.post('/login', (req, res, next) => {
     User.find({ email: req.body.email })
         .exec()
         .then(user => {
+            console.log('****USER: ' + user)
             if (user.length < 1) {
                 return res.status(401).json({
                     message: 'Authentication failed'
@@ -85,8 +86,9 @@ router.post('/login', (req, res, next) => {
                     }, process.env.JWT_KEY,
                         {
                             expiresIn: '1h'
-                        },
+                        }
                     );
+                    console.log('TOKEN:' + token)
                     // This response now includes a cookie which contains our access token.   
                     return res
                         .cookie('access_token', token, { domain: 'localhost', sameSite: 'none', httpOnly: true })
