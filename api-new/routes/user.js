@@ -121,7 +121,11 @@ router.post('/save', checkAuth, (req, res) => {
         _id: new mongoose.Types.ObjectId(),
         ingredientLines: req.body.ingredientLines,
         img: req.body.img,
-        label: req.body.label
+        label: req.body.label,
+        digest: req.body.digest,
+        url: req.body.url,
+        calories: req.body.calories
+        // this needs to be expanded to include nutrition info and link to instructions
     })
 
     // Saves the recipe to the database and then saves the recipe's _id to the user's saved recipes array
