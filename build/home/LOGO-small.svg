@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 204 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-34.025,-30.2984)">
+        <g transform="matrix(0.815777,0,0,0.815777,-456.129,-138.599)">
+            <circle cx="656.14" cy="262.392" r="55.298" style="fill:rgb(30,229,107);"/>
+        </g>
+        <g transform="matrix(0.599153,0,0,0.546049,-133.745,-70.1757)">
+            <rect x="280.012" y="184.086" width="75.291" height="82.613" style="fill:rgb(30,229,107);"/>
+        </g>
+        <g transform="matrix(0.651718,0,0,0.651718,-151.056,-79.2598)">
+            <text x="312.016px" y="263.758px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:72px;fill:white;">Nu</text>
+            <text x="419.656px" y="263.758px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:72px;fill:rgb(30,229,107);">tr<tspan x="481.72px 503.392px 531.976px " y="263.758px 263.758px 263.758px ">ify</tspan></text>
+        </g>
+        <g transform="matrix(0.45019,0,0,0.454366,43.2584,-38.5243)">
+            <path d="M332.654,151.47L431.872,151.47L431.872,250.414C431.719,196.061 387.406,151.94 332.654,151.47Z" style="fill:rgb(30,229,107);"/>
+        </g>
+    </g>
+</svg>
